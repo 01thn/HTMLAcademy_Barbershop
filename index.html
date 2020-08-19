@@ -9,9 +9,6 @@
 </head>
 <body>
     <header class="main-header">
-        <a class="main-header-logo">
-            <img src="img/index-logo.svg" width="368" height="153" alt="Логотип">
-        </a>
         <nav class="main-navigation">
             <ul class="site-navigation">
                 <li><a href="info.html">Информация</a></li>
@@ -29,20 +26,24 @@
     </header>
 
     <main class="container">
+        <a class="main-header-logo">
+            <img src="img/index-logo.svg" width="368" height="153" alt="Логотип">
+        </a>
+
         <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
 
-        <section class="feautures">
+        <section class="features">
             <h2 class="visually-hidden">Приемущества</h2>
-            <ul class="feautures-list">
-                <li class="feauture-item">
+            <ul class="features-list">
+                <li class="feature-item">
                     <h3>Быстро</h3>
                     <p>Мы делаем работу быстро!</p>
                 </li>
-                <li class="feauture-item">
+                <li class="feature-item">
                     <h3>Круто</h3>
                     <p>Забудьте как вы стриглись раньше</p>
                 </li>
-                <li class="feauture-item">
+                <li class="feature-item">
                     <h3>Дорого</h3>
                     <p>Наши мастера - профессионалы. А директор копит на Феррари</p>
                 </li>
@@ -54,7 +55,7 @@
             <h2>Новости</h2>
             <ul class="news-list">
                 <li class="news-item">
-                    <p>Нам завезли Дюшес! Теперь можно пропустить стаканчик во время Вашего преображения</p>
+                    <p>Нам завезли Jameson! Теперь можно пропустить рюмочку во время Вашего преображения</p>
                     <time datetime="2020-07-07">7 июля 2020</time>
                 </li>
                 <li class="news-item">
@@ -119,6 +120,7 @@
     </main>
     
         <footer class="main-footer">
+            <div class="container">
             <p class="footer-contact">
             Барбершоп "Бородинский"<br>
             Адрес: г.Боярка, ул.Себечная 7/666<br>
@@ -169,7 +171,7 @@
         <section class="modal modal-map">
             <h2 class="visually-hidden">Как до нас добраться</h2>
             <p>
-                <img src="img/map.jpg" width='780' height='560' alt="Офис">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40752.65731304291!2d30.259616661508513!3d50.32848479129957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4b6864b8091d3%3A0x64a1d2685ed1e261!2sBoyarka%2C%20Kyiv%20Oblast%2C%20Ukraine%2C%2008151!5e0!3m2!1sen!2sby!4v1596812818380!5m2!1sen!2sby" width="780" height="560" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </p>
             <button class="modal-close">Закрыть</button>
         </section>

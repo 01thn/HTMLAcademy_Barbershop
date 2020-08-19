@@ -9,20 +9,22 @@
 </head>
 <body class="inner-page">
     <header class="main-header">
-        <a class="main-header-logo" href="index.html">
-            <img src="img/logo-shop.png" width="111" height="24" alt="Логотип">
+        <a class="inner-header-logo" href="index.html">
+            <img src="img/logo-shop.png" width="75" height="24" alt="Логотип">
         </a>
         <nav class="main-navigation">
             <ul class="site-navigation">
                 <li><a href="info.html">Информация</a></li>
                 <li><a href="news.html">Новости</a></li>
                 <li><a href="price.html">Прайс-лист</a></li>
-                <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+                <li><a href="catalog.html">Магазин</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </ul>          
         </nav>
         <ul class="user-navigation">
-            <li class="login-link">Вход</li>
+            <li class="login-link">
+                <a href="login.html" class="login-link">Вход</a>
+            </li>
         </ul>
     </header>
 
@@ -193,9 +195,10 @@
     </main>
 
     <footer class="main-footer">
+        <div class="container">
         <p class="footer-contact">
         Барбершоп "Бородинский"<br>
-        Адрес: г.Санкт-Петербург, ул.Себечная 7/666<br>
+        Адрес: г.Боярка, ул.Себечная 7/666<br>
         <a href="map.html">Как нас найти?</a><br>
         Тел: 8-800-555-35-35
         </p>
@@ -240,10 +243,13 @@
         <button class="modal-close">Закрыть</button> 
         </section>
 
-    <section class="modal modal-map">
-        <h2 class="visually-hidden">Как до нас добраться</h2>
-        <span class="modal-close">x</span>
-    </section>
+        <section class="modal modal-map">
+            <h2 class="visually-hidden">Как до нас добраться</h2>
+            <p>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40752.65731304291!2d30.259616661508513!3d50.32848479129957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4b6864b8091d3%3A0x64a1d2685ed1e261!2sBoyarka%2C%20Kyiv%20Oblast%2C%20Ukraine%2C%2008151!5e0!3m2!1sen!2sby!4v1596812818380!5m2!1sen!2sby" width="780" height="560" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </p>
+            <button class="modal-close">Закрыть</button>
+        </section>
 
 </body>
 </html>
